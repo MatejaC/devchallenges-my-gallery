@@ -1,1 +1,9 @@
-devchallenges-my-gallery
+# devchallenges-my-gallery
+
+...
+practical exercise
+...
+Challenge: Create a static page with HTML and CSS following the designs. at <https://devchallenges.io/challenges/gcbWLxG6wdennelX7b8I>
+
+...
+my solution at <https://matejac.github.io/devchallenges-my-gallery/.>
