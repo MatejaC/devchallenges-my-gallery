@@ -57,23 +57,20 @@ body {
   max-width: 100ch;
   -o-object-fit: cover;
      object-fit: cover;
-<<<<<<< HEAD
   display: block;
-=======
-  display: inline-block;
->>>>>>> master
   border-radius: 20px;
   -webkit-filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.15));
           filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.15));
 }
 
 .profile-photo {
+  display: inline-block;
+  position: relative;
   -ms-grid-column: 3;
   -ms-grid-column-span: 3;
   grid-column: 3 / 6;
   -ms-grid-row: 1;
   grid-row: 1;
-<<<<<<< HEAD
   display: block;
   border-radius: 38px;
   width: 100%;
@@ -81,27 +78,30 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
   margin: 2rem 0rem 0rem 1.55rem;
-=======
-  border-radius: 38px;
->>>>>>> master
 }
 
 .name {
-  -ms-grid-column: 3;
-  -ms-grid-column-span: 4;
-  grid-column: 3 / 7;
+  display: inline-block;
+  position: relative;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 8;
+  grid-column: 1 / 9;
   -ms-grid-row: 2;
   grid-row: 2;
   color: #4e5150;
   font-weight: 600;
   font-size: 14px;
   line-height: 17px;
+  text-align: center;
+  margin: 0rem 0rem 0rem 0rem;
 }
 
 .town {
-  -ms-grid-column: 3;
-  -ms-grid-column-span: 4;
-  grid-column: 3 / 7;
+  display: inline-block;
+  position: relative;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 8;
+  grid-column: 1 / 9;
   -ms-grid-row: 3;
   grid-row: 3;
   font-weight: 600;
@@ -109,9 +109,12 @@ body {
   line-height: 12px;
   text-align: center;
   color: #a9a9a9;
+  margin-top: -0.3rem;
 }
 
 .rectangle {
+  display: inline-block;
+  position: relative;
   width: 78px;
   height: 52px;
   border-radius: 12px;
@@ -123,7 +126,6 @@ body {
   font-size: 12px;
   line-height: 15px;
   text-align: center;
-<<<<<<< HEAD
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -131,9 +133,6 @@ body {
   padding: 0.65rem;
   color: #4e5150;
   margin: 0.2rem 0rem 1.7rem 0rem;
-=======
-  color: #4e5150;
->>>>>>> master
 }
 
 .rectangle1 {
@@ -144,39 +143,34 @@ body {
   grid-row: 4;
   display: inline-block;
   position: relative;
-<<<<<<< HEAD
   margin-left: 0.2rem;
-=======
->>>>>>> master
 }
 
 .rectangle2 {
+  display: inline-block;
+  position: relative;
   -ms-grid-column: 4;
   -ms-grid-column-span: 2;
   grid-column: 4 / 6;
   -ms-grid-row: 4;
   grid-row: 4;
-  display: inline-block;
-  position: relative;
-<<<<<<< HEAD
   margin-left: 0.1rem;
-=======
->>>>>>> master
 }
 
 .rectangle3 {
+  display: inline-block;
+  position: relative;
   -ms-grid-column: 6;
   -ms-grid-column-span: 2;
   grid-column: 6 / 8;
   -ms-grid-row: 4;
   grid-row: 4;
-<<<<<<< HEAD
   margin-right: 0.2rem;
-=======
->>>>>>> master
 }
 
 .gallery__item--1 {
+  display: inline-block;
+  position: relative;
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-column: 1 / 4;
@@ -186,6 +180,8 @@ body {
 }
 
 .gallery__item--2 {
+  display: inline-block;
+  position: relative;
   -ms-grid-column: 4;
   -ms-grid-column-span: 5;
   grid-column: 4 / 9;
@@ -195,6 +191,8 @@ body {
 }
 
 .gallery__item--3 {
+  display: inline-block;
+  position: relative;
   -ms-grid-column: 1;
   -ms-grid-column-span: 5;
   grid-column: 1 / 6;
@@ -204,6 +202,8 @@ body {
 }
 
 .gallery__item--4 {
+  display: inline-block;
+  position: relative;
   -ms-grid-column: 6;
   -ms-grid-column-span: 3;
   grid-column: 6 / 9;
@@ -214,6 +214,8 @@ body {
 }
 
 .gallery__item--5 {
+  display: inline-block;
+  position: relative;
   -ms-grid-column: 4;
   -ms-grid-column-span: 2;
   grid-column: 4 / 6;
@@ -223,6 +225,8 @@ body {
 }
 
 .gallery__item--6 {
+  display: inline-block;
+  position: relative;
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-column: 1 / 4;
@@ -232,6 +236,8 @@ body {
 }
 
 footer {
+  display: inline-block;
+  position: relative;
   -ms-grid-column: 1;
   -ms-grid-column-span: 8;
   grid-column: 1 / 9;
